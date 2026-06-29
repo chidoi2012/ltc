@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Cá Nhân</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg"></div>
+
+<header>
+
+    <img src="images/avatar.png" class="avatar">
+
+    <h1 class="rgb">Xin Chào 👋</h1>
+
+    <p>Chào mừng đến với website của tôi</p>
+
+</header>
+
+<nav>
+
+<a href="index.html">🏠 Trang chủ</a>
+
+<a href="pages/about.html">👤 Giới thiệu</a>
+
+<a href="pages/gallery.html">🖼️ Ảnh</a>
+
+<a href="pages/contact.html">📞 Liên hệ</a>
+
+<a href="pages/login.html">🔒 Đăng nhập</a>
+
+</nav>
+
+<div class="card">
+
+<h2>✨ Welcome ✨</h2>
+
+<p>
+Đây là website cá nhân được tạo bằng
+HTML, CSS và JavaScript.
+</p>
+
+<button onclick="hello()">
+Bắt đầu
+</button>
+
+</div>
+
+<footer>
+
+© 2026 Personal Website
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
